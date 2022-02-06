@@ -1,3 +1,4 @@
 #jumbotron {
     background: #ecf1f5 url("../images/peter-thomas-obOhZK45vlM-unsplash.jpg") no-repeat center / contain;
+    background-size: cover;
 }
