@@ -14,3 +14,24 @@ body, html {
       background-attachment: scroll;
     }
   }
+
+#parallax-1 {
+    background: url("/images/rat.jpg") no-repeat center / contain;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+#parallax-2 {
+    background: url("/images/fish.jpg") no-repeat center / contain;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+#parallax-3 {
+    background: url("/images/worm.jpg") no-repeat center / contain;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
