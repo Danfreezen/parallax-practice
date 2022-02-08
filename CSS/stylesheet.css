@@ -1,4 +1,16 @@
-#jumbotron {
-    background: #ecf1f5 url("../images/peter-thomas-obOhZK45vlM-unsplash.jpg") no-repeat center / contain;
-    background-size: cover;
+body, html {
+    height: 100%;
 }
+
+#parallax {
+    background: url("/images/science.jpg") no-repeat center / contain;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    #parallax {
+      background-attachment: scroll;
+    }
+  }
